@@ -43,7 +43,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
     //Metodo que pasandole una url hace una consulta del archivo JSON o XML
     public void Consulta(){
         ProcessJSON consulta = new ProcessJSON();
-        consulta.execute("http://www.sotoan.com/Curso/cine.JSON");
+        consulta.execute("https://raw.githubusercontent.com/MikelGil/AndroidTV-MaterialDesign/master/cine.JSON");
     }
 
     //Metodo para procesar el contenido del archivo JSON o XML
